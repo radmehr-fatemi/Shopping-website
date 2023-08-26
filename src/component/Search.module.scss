@@ -1,0 +1,27 @@
+.search {
+    width: 100vw;
+    padding: 4rem 10rem;
+    background: linear-gradient(rgb(116, 6, 6) ,rgb(255, 55, 0));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    h1 {
+        color: #fff;
+        font-size: 3rem;
+    }
+    input {
+        width: 20rem;
+        height: 3rem;
+        border-radius: 10px;
+        border: none;
+        padding: 4px;
+        font-size: large;
+    }
+    input:focus {
+        outline: navajowhite;
+    }
+    p {
+        color: #fff;
+    }
+}

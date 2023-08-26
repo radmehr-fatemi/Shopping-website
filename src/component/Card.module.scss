@@ -1,0 +1,55 @@
+.card {
+    width: 16rem;
+    height: 400px;
+    padding: 1rem;
+    border-radius: 10px;
+    background: linear-gradient(rgb(68, 167, 224) ,rgb(219, 214, 127));
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    .costName {
+        padding: .3rem 0 .3rem .3rem;
+        height: fit-content;
+    }
+    img {
+        width: 100%;
+        height: 70%;
+        // overflow: hidden;
+        border-radius: 10px;
+    }
+    h3 {
+        font-size: .9rem;
+        color: #fff;
+        text-shadow: 2px 2px 6px black;
+        // margin: .4rem 0;
+    }
+    p {
+        background-color: rgb(145, 228, 19);
+        color: #fff;
+        width: fit-content;
+        padding: 4px;
+        border-radius: 8px;
+        margin: 5px;
+    }
+    .costDiv {
+        display: flex;
+        align-items: center;
+        // margin-top: 8px;
+        img {
+            width: 1.3rem;
+            cursor: pointer;
+        }
+        span {
+            padding: 4px;
+            background-color: rgb(9, 157, 157);
+            border-radius: 4px;
+            color: #fff;
+            margin: 0 4px;
+        }
+    }
+
+    .downDown {
+        opacity: .5;
+    }
+}

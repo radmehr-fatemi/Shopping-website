@@ -1,0 +1,20 @@
+.support {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    background: linear-gradient(rgb(65, 55, 55) ,rgb(189, 131, 131));
+    h2 {
+        color: #fff;
+        font-size: 2rem;
+        padding: 1rem;
+    }
+    img {
+        width: 25%;
+        height: 25%;
+        border-radius: 50%;
+        margin: .5rem;
+        cursor: pointer;
+    }
+}
